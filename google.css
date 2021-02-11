@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+}
+
+ul{
+    padding: 20px;
+    margin: 2px;
+    list-style-type: none;
+    /*overflow: auto;*/
+    display: inline-block;
+    max-width: 100%;
+
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*children links of unordered lists are black*/
+ul a{
+    color: black;
+}
+
+
+div{
+    text-align: center;
+}
+
+input{
+    width: 43%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid gainsboro;
+}
+
+input:hover{
+    box-shadow:5px solid gainsboro;
+}
+
+#l2 a{
+    float: left;
+    
+}
+
+#l3 a{
+    float: right;
+
+}
+
+button{
+    padding: 5px;
+    opacity: 1;
+}
+
+#ds{
+    position: fixed;
+    bottom: 0;
+}
+#ul2~a:hover{
+    background-color:2px solid wheat;
+}
+
+.ryt li{
+    float: right;
+}
